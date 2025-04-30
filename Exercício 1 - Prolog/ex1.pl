@@ -22,7 +22,7 @@ come(coelho,grama).
 come(veado,grama).
 come(urso,guaxinim).
 
-% Respostas:
+% Respostas
 
 % planta(x) = false
 % come(raposa,x) = false
