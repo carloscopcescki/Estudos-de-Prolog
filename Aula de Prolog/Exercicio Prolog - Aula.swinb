@@ -1,0 +1,32 @@
+<div class="notebook">
+
+<div class="nb-cell markdown" name="md1">
+Fatos
+</div>
+
+<div class="nb-cell program" data-background="true" name="p1">
+% fatos
+
+fala(maria,espanhol).
+fala(joao,ingles).
+fala(joao,espanhol).
+fala(jose,ingles).
+fala(anderson,italiano).
+
+% Regras
+conversa(X,Y) :- fala(X,L), fala(Y,L), X \= Y.
+</div>
+
+<div class="nb-cell markdown" name="md2">
+FORAM CRIADAS AS REGRAS E FATOS DA BASE DE CONHECIMENTO
+</div>
+
+<div class="nb-cell query" name="q1">
+conversa(X,Y).
+</div>
+
+<div class="nb-cell query" name="q2">
+fala(X,espanhol).
+</div>
+
+</div>
