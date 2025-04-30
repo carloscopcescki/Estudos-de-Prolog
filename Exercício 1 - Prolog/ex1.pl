@@ -24,7 +24,7 @@ come(urso,guaxinim).
 
 % Respostas
 
-% planta(x) = false
-% come(raposa,x) = false
+% planta(X) = alga & grama
+% come(raposa,X) = coelho
 % come(_,_) = true
-% come(x,grama) = false
+% come(X,grama) = coelho & veado
